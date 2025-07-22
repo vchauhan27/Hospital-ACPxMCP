@@ -1,0 +1,28 @@
+[project]
+name = "acpxmcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "acp-sdk>=1.0.0",
+    "beautifulsoup4>=4.13.4",
+    "duckduckgo-search>=8.1.1",
+    "faiss-cpu>=1.11.0.post1",
+    "fastacp>=0.0.0",
+    "fastapi>=0.116.1",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-groq>=0.3.6",
+    "langchain-huggingface>=0.3.0",
+    "litellm>=1.74.7",
+    "mcp>=1.12.0",
+    "pypdf>=5.8.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.4",
+    "sentence-transformers>=5.0.0",
+    "smolagents[mcp]>=1.20.0",
+    "transformers>=4.53.2",
+    "uvicorn>=0.35.0",
+]
